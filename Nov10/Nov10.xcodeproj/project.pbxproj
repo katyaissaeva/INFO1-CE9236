@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0784E077146A332E001F17DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0784E076146A332E001F17DE /* UIKit.framework */; };
+		0784E079146A332E001F17DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0784E078146A332E001F17DE /* Foundation.framework */; };
+		0784E07B146A332E001F17DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0784E07A146A332E001F17DE /* CoreGraphics.framework */; };
+		0784E081146A332E001F17DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0784E07F146A332E001F17DE /* InfoPlist.strings */; };
+		0784E083146A332E001F17DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784E082146A332E001F17DE /* main.m */; };
+		0784E087146A332E001F17DE /* Nov10AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784E086146A332E001F17DE /* Nov10AppDelegate.m */; };
+		0784E08F146A332E001F17DE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0784E08E146A332E001F17DE /* SenTestingKit.framework */; };
+		0784E090146A332E001F17DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0784E076146A332E001F17DE /* UIKit.framework */; };
+		0784E091146A332E001F17DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0784E078146A332E001F17DE /* Foundation.framework */; };
+		0784E099146A332E001F17DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0784E097146A332E001F17DE /* InfoPlist.strings */; };
+		0784E09C146A332E001F17DE /* Nov10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784E09B146A332E001F17DE /* Nov10Tests.m */; };
+		0784E0AC146A35CE001F17DE /* BigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784E0AB146A35CE001F17DE /* BigView.m */; };
+		0784E0BC146B3F58001F17DE /* LittleView0.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784E0B7146B3F58001F17DE /* LittleView0.m */; };
+		0784E0BD146B3F58001F17DE /* LittleView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784E0B9146B3F58001F17DE /* LittleView1.m */; };
+		0784E0BE146B3F58001F17DE /* LittleView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0784E0BB146B3F58001F17DE /* LittleView2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0784E092146A332E001F17DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0784E069146A332E001F17DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0784E071146A332E001F17DE;
+			remoteInfo = Nov10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0784E072146A332E001F17DE /* Nov10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nov10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0784E076146A332E001F17DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0784E078146A332E001F17DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0784E07A146A332E001F17DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0784E07E146A332E001F17DE /* Nov10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov10-Info.plist"; sourceTree = "<group>"; };
+		0784E080146A332E001F17DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0784E082146A332E001F17DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0784E084146A332E001F17DE /* Nov10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nov10-Prefix.pch"; sourceTree = "<group>"; };
+		0784E085146A332E001F17DE /* Nov10AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov10AppDelegate.h; sourceTree = "<group>"; };
+		0784E086146A332E001F17DE /* Nov10AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov10AppDelegate.m; sourceTree = "<group>"; };
+		0784E08D146A332E001F17DE /* Nov10Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nov10Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0784E08E146A332E001F17DE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0784E096146A332E001F17DE /* Nov10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov10Tests-Info.plist"; sourceTree = "<group>"; };
+		0784E098146A332E001F17DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0784E09A146A332E001F17DE /* Nov10Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov10Tests.h; sourceTree = "<group>"; };
+		0784E09B146A332E001F17DE /* Nov10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov10Tests.m; sourceTree = "<group>"; };
+		0784E0AA146A35CE001F17DE /* BigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigView.h; sourceTree = SOURCE_ROOT; };
+		0784E0AB146A35CE001F17DE /* BigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigView.m; sourceTree = SOURCE_ROOT; };
+		0784E0B6146B3F58001F17DE /* LittleView0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView0.h; sourceTree = SOURCE_ROOT; };
+		0784E0B7146B3F58001F17DE /* LittleView0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView0.m; sourceTree = SOURCE_ROOT; };
+		0784E0B8146B3F58001F17DE /* LittleView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView1.h; sourceTree = SOURCE_ROOT; };
+		0784E0B9146B3F58001F17DE /* LittleView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView1.m; sourceTree = SOURCE_ROOT; };
+		0784E0BA146B3F58001F17DE /* LittleView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleView2.h; sourceTree = SOURCE_ROOT; };
+		0784E0BB146B3F58001F17DE /* LittleView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleView2.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0784E06F146A332E001F17DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0784E077146A332E001F17DE /* UIKit.framework in Frameworks */,
+				0784E079146A332E001F17DE /* Foundation.framework in Frameworks */,
+				0784E07B146A332E001F17DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0784E089146A332E001F17DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0784E08F146A332E001F17DE /* SenTestingKit.framework in Frameworks */,
+				0784E090146A332E001F17DE /* UIKit.framework in Frameworks */,
+				0784E091146A332E001F17DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0784E067146A332E001F17DE = {
+			isa = PBXGroup;
+			children = (
+				0784E07C146A332E001F17DE /* Nov10 */,
+				0784E094146A332E001F17DE /* Nov10Tests */,
+				0784E075146A332E001F17DE /* Frameworks */,
+				0784E073146A332E001F17DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0784E073146A332E001F17DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0784E072146A332E001F17DE /* Nov10.app */,
+				0784E08D146A332E001F17DE /* Nov10Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0784E075146A332E001F17DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0784E076146A332E001F17DE /* UIKit.framework */,
+				0784E078146A332E001F17DE /* Foundation.framework */,
+				0784E07A146A332E001F17DE /* CoreGraphics.framework */,
+				0784E08E146A332E001F17DE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0784E07C146A332E001F17DE /* Nov10 */ = {
+			isa = PBXGroup;
+			children = (
+				0784E0B6146B3F58001F17DE /* LittleView0.h */,
+				0784E0B7146B3F58001F17DE /* LittleView0.m */,
+				0784E0B8146B3F58001F17DE /* LittleView1.h */,
+				0784E0B9146B3F58001F17DE /* LittleView1.m */,
+				0784E0BA146B3F58001F17DE /* LittleView2.h */,
+				0784E0BB146B3F58001F17DE /* LittleView2.m */,
+				0784E0AA146A35CE001F17DE /* BigView.h */,
+				0784E0AB146A35CE001F17DE /* BigView.m */,
+				0784E085146A332E001F17DE /* Nov10AppDelegate.h */,
+				0784E086146A332E001F17DE /* Nov10AppDelegate.m */,
+				0784E07D146A332E001F17DE /* Supporting Files */,
+			);
+			path = Nov10;
+			sourceTree = "<group>";
+		};
+		0784E07D146A332E001F17DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0784E07E146A332E001F17DE /* Nov10-Info.plist */,
+				0784E07F146A332E001F17DE /* InfoPlist.strings */,
+				0784E082146A332E001F17DE /* main.m */,
+				0784E084146A332E001F17DE /* Nov10-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0784E094146A332E001F17DE /* Nov10Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0784E09A146A332E001F17DE /* Nov10Tests.h */,
+				0784E09B146A332E001F17DE /* Nov10Tests.m */,
+				0784E095146A332E001F17DE /* Supporting Files */,
+			);
+			path = Nov10Tests;
+			sourceTree = "<group>";
+		};
+		0784E095146A332E001F17DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0784E096146A332E001F17DE /* Nov10Tests-Info.plist */,
+				0784E097146A332E001F17DE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0784E071146A332E001F17DE /* Nov10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0784E09F146A332E001F17DE /* Build configuration list for PBXNativeTarget "Nov10" */;
+			buildPhases = (
+				0784E06E146A332E001F17DE /* Sources */,
+				0784E06F146A332E001F17DE /* Frameworks */,
+				0784E070146A332E001F17DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nov10;
+			productName = Nov10;
+			productReference = 0784E072146A332E001F17DE /* Nov10.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0784E08C146A332E001F17DE /* Nov10Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0784E0A2146A332E001F17DE /* Build configuration list for PBXNativeTarget "Nov10Tests" */;
+			buildPhases = (
+				0784E088146A332E001F17DE /* Sources */,
+				0784E089146A332E001F17DE /* Frameworks */,
+				0784E08A146A332E001F17DE /* Resources */,
+				0784E08B146A332E001F17DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0784E093146A332E001F17DE /* PBXTargetDependency */,
+			);
+			name = Nov10Tests;
+			productName = Nov10Tests;
+			productReference = 0784E08D146A332E001F17DE /* Nov10Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0784E069146A332E001F17DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0784E06C146A332E001F17DE /* Build configuration list for PBXProject "Nov10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0784E067146A332E001F17DE;
+			productRefGroup = 0784E073146A332E001F17DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0784E071146A332E001F17DE /* Nov10 */,
+				0784E08C146A332E001F17DE /* Nov10Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0784E070146A332E001F17DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0784E081146A332E001F17DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0784E08A146A332E001F17DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0784E099146A332E001F17DE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0784E08B146A332E001F17DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0784E06E146A332E001F17DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0784E083146A332E001F17DE /* main.m in Sources */,
+				0784E087146A332E001F17DE /* Nov10AppDelegate.m in Sources */,
+				0784E0AC146A35CE001F17DE /* BigView.m in Sources */,
+				0784E0BC146B3F58001F17DE /* LittleView0.m in Sources */,
+				0784E0BD146B3F58001F17DE /* LittleView1.m in Sources */,
+				0784E0BE146B3F58001F17DE /* LittleView2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0784E088146A332E001F17DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0784E09C146A332E001F17DE /* Nov10Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0784E093146A332E001F17DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0784E071146A332E001F17DE /* Nov10 */;
+			targetProxy = 0784E092146A332E001F17DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0784E07F146A332E001F17DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0784E080146A332E001F17DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0784E097146A332E001F17DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0784E098146A332E001F17DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0784E09D146A332E001F17DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0784E09E146A332E001F17DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0784E0A0146A332E001F17DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nov10/Nov10-Prefix.pch";
+				INFOPLIST_FILE = "Nov10/Nov10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0784E0A1146A332E001F17DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nov10/Nov10-Prefix.pch";
+				INFOPLIST_FILE = "Nov10/Nov10-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0784E0A3146A332E001F17DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nov10.app/Nov10";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nov10/Nov10-Prefix.pch";
+				INFOPLIST_FILE = "Nov10Tests/Nov10Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0784E0A4146A332E001F17DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nov10.app/Nov10";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nov10/Nov10-Prefix.pch";
+				INFOPLIST_FILE = "Nov10Tests/Nov10Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0784E06C146A332E001F17DE /* Build configuration list for PBXProject "Nov10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0784E09D146A332E001F17DE /* Debug */,
+				0784E09E146A332E001F17DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0784E09F146A332E001F17DE /* Build configuration list for PBXNativeTarget "Nov10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0784E0A0146A332E001F17DE /* Debug */,
+				0784E0A1146A332E001F17DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0784E0A2146A332E001F17DE /* Build configuration list for PBXNativeTarget "Nov10Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0784E0A3146A332E001F17DE /* Debug */,
+				0784E0A4146A332E001F17DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0784E069146A332E001F17DE /* Project object */;
+}

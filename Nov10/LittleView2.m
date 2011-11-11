@@ -1,0 +1,39 @@
+//
+//  LittleView1.m
+//  Flip
+//
+//  Created by NYU User on 11/3/11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "LittleView2.h"
+
+@implementation LittleView2
+
+- (id) initWithFrame: (CGRect) frame
+{
+	self = [super initWithFrame: frame];
+	if (self) {
+		// Initialization code
+		self.backgroundColor = [UIColor yellowColor];
+	}
+	return self;
+}
+
+
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+
+- (void) drawRect: (CGRect) rect
+{
+    // Drawing code
+	//Print the name of the class.  See the main function in main.m.
+    //Class class = [self class];
+    
+    // NSString *string = NSStringFromClass(class);
+    NSString  *string = @"changes the page in the direction of the swipe";
+	UIFont *font = [UIFont systemFontOfSize: 15];
+	[string drawAtPoint: CGPointZero withFont: font];
+}
+
+@end
